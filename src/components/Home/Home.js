@@ -4,13 +4,14 @@ import { Link } from "react-router-dom";
 import Avatar from "../../Assets/avatar.png";
 import About from "../About/About";
 import Project from "../Project/Project";
+import Tilt from "react-next-tilt";
 const Home = () => {
     return(
         <>
-       <header className="py-5">
+       <section id="header" className="py-md-5 py-3 home">
             <Container className="px-5 pb-5 pt-5" >
                 <Row className="pt-5 gx-5 align-items-center">
-                    <Col xs={12} md={6} lg={5}>
+                    <Col xs={12} md={5} lg={5}>
                     <div className="text-center text-md-start">
               <Badge text="white" className="mb-4 bg-gradient-primary-to-secondary">
                 <div className="text-uppercase">Design &middot; Web Development &middot; Marketing</div>
@@ -29,18 +30,18 @@ const Home = () => {
               </div>
             </div>
                     </Col>
-                    <Col xs={12} md={6} lg={7}>
+                    <Col xs={12} md={7} lg={7}>
                         <div className="d-flex justify-content-center">
-                        <div className="text-center profile bg-gradient-primary-to-secondary">
-                            <Image src={Avatar} alt="avatar" className="img-fluid" rounded />
+                        <div className="text-center profile">
+                          <Tilt>
+                            <Image src={Avatar} alt="avatar" className="img-fluid" />
+                            </Tilt>
                             </div>
                         </div>
                     </Col>
                 </Row>
             </Container>
-       </header>
-       <Project />
-            <About />
+       </section>
        </>
     )
 }
