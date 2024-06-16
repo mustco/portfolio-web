@@ -5,12 +5,12 @@ export default function Education() {
     return (
         <section id="educations" className="py-md-5 py-3 bg-gradient__white-to-pink">
         <Container className="px-5 mb-3">
-            <div className="d-flex flex-row align-items-center text-center mb-5">
+            <div className="d-flex flex-row align-items-center text-center mb-5" data-aos="fade-up">
                 <div className="mt-1 divider ml-4 h-1 bg-dark"></div>
                 <h2 className=" fw-bolder mb-0"><span className="text-gradient d-inline px-4">EDUCATION</span></h2>
                 <div className="mt-1 divider ml-4 h-1 bg-dark"></div>
             </div>
-            <Card className=" shadow border-0 rounded-4 mb-5">
+            <Card className=" shadow border-0 rounded-4 mb-5" data-aos="fade-up">
                                 <div className="card-body p-5">
                                     <Row className="align-items-center gx-5">
                                         <Col className=" text-center text-lg-start mb-4 mb-lg-0">
@@ -29,7 +29,7 @@ export default function Education() {
                                     </Row>
                                 </div>
                             </Card>
-                            <Card className=" shadow border-0 rounded-4 mb-5">
+                            <Card className=" shadow border-0 rounded-4 mb-5" data-aos="fade-up">
                                 <div className="card-body p-5">
                                     <Row className=" align-items-center gx-5">
                                         <Col className=" text-center text-lg-start mb-4 mb-lg-0">
