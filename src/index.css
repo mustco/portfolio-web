@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
 
 body {
   font-family: "Plus Jakarta Sans", sans-serif !important;
@@ -9,17 +9,18 @@ body {
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
 #header {
   position: relative;
-  background-image: url(Assets/triangle.jpg);
+  background-image: url(Assets/grid1.jpeg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   width: 100%;
-  height: 100vh; 
+  height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -36,11 +37,15 @@ code {
   left: 0;
   right: 0;
   bottom: 0;
-  background: linear-gradient(to bottom, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) -10%, white 100%);
+  background: linear-gradient(to bottom,
+      rgba(255, 255, 255, 1) -100%,
+      rgba(255, 255, 255, 0) -100%,
+      white 100%);
 
-  backdrop-filter: blur(0.8px); /* Efek blur pada latar belakang */
+  backdrop-filter: blur(0px);
   z-index: -1;
 }
+
 .black-style {
   color: black;
 }
@@ -54,10 +59,10 @@ code {
 }
 
 .wave {
-  animation-name: wave-animation; 
-  animation-duration: 2.1s; 
-  animation-iteration-count: infinite; 
-  transform-origin: 70% 70%; 
+  animation-name: wave-animation;
+  animation-duration: 2.1s;
+  animation-iteration-count: infinite;
+  transform-origin: 70% 70%;
   display: inline-block;
 }
 
@@ -65,66 +70,94 @@ code {
   0% {
     transform: rotate(0deg);
   }
+
   10% {
     transform: rotate(20deg);
   }
+
   20% {
     transform: rotate(-8deg);
   }
+
   30% {
     transform: rotate(14deg);
   }
+
   40% {
     transform: rotate(-4deg);
   }
+
   50% {
     transform: rotate(10deg);
   }
+
   60% {
     transform: rotate(-8deg);
   }
+
   70% {
     transform: rotate(14deg);
   }
+
   80% {
     transform: rotate(-4deg);
   }
+
   90% {
     transform: rotate(10deg);
   }
+
   100% {
     transform: rotate(0deg);
   }
 }
+
 .profile {
   /* position: relative; */
   height: 60%;
   width: 60%;
   border-radius: 100%;
- 
   padding: 1rem;
 }
 
 .bg-gradient-primary-to-secondary {
- background: linear-gradient(135deg, #4b5afa 0%, #f74aa0 100%);
+  background: linear-gradient(135deg, #4b5afa 0%, #f74aa0 100%);
 }
+
+.soc-media__about>a {
+  color: #d6227f;
+}
+
+.text-gradient {
+  background: -webkit-linear-gradient(315deg, #1e30f3 0%, #e21e80 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 .bg-gradient__white-to-pink {
   background: #7681f3;
-  background: linear-gradient(to bottom, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) -10%, #b3baf5 30%, #ffbcde 60%, white 100%);
-  
- 
+  background: linear-gradient(to bottom,
+      rgba(255, 255, 255, 1) 0%,
+      rgba(255, 255, 255, 0) -10%,
+      #b3baf5 25%,
+      #ffbcde 85%,
+      white 100%);
 }
+
 .bg-gradient-pink-to-white {
-  background: linear-gradient(to bottom, #f37ab7 0%, #ffffff 100%, rgba(255, 255, 255, 0) 70%, rgba(255, 255, 255, 1) 100%);
+  background: linear-gradient(to bottom,
+      #f37ab7 0%,
+      #ffffff 100%,
+      rgba(255, 255, 255, 0) 70%,
+      rgba(255, 255, 255, 1) 100%);
 }
 
 .divider {
   height: 4px;
   width: 20%;
   border-radius: 0.75rem;
-  
+  background: linear-gradient(135deg, #4b5afa 0%, #f74aa0 100%);
 }
-
 
 .project__image {
   min-height: 160px;
@@ -138,6 +171,7 @@ code {
   0% {
     background-color: hsl(0, 0%, 97%);
   }
+
   100% {
     background-color: hsl(0, 3%, 80%);
   }
@@ -148,5 +182,5 @@ code {
 }
 
 .project-card:hover {
-  box-shadow:0px 10px 15px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.2);
 }
