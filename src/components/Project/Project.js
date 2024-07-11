@@ -9,9 +9,9 @@ export default function Project() {
         id="projects"
         className="py-md-5 py-3 bg-gradient__white-to-pink"
       >
-        <Container className="px-5 mb-3">
+        <Container className="px-3">
           <div
-            className="d-flex flex-row align-items-center text-center mb-5"
+            className="d-flex flex-row justify-content-center align-items-center mb-4 mb-md-5"
             data-aos="fade-up"
           >
             <div className="mt-1 divider ml-4 h-1"></div>
@@ -31,7 +31,7 @@ export default function Project() {
                 key={project.id}
                 data-aos="fade-up"
               >
-                <Card className="project-card overflow-hidden border-0 rounded-4  mb-4">
+                <Card className="project-card overflow-hidden border-0 rounded-4  mb-3 mb-md-4">
                   <div className="card-body p-0">
                     <div className="d-flex align-items-center">
                       <div className="p-2">

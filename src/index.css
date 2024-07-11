@@ -14,11 +14,11 @@ code {
 }
 
 #header {
-  position: relative;
+  /* position: relative;
   background-image: url(Assets/grid1.jpeg);
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: center; */
   width: 100%;
   height: 100vh;
   display: flex;
@@ -28,6 +28,7 @@ code {
   text-align: center;
   z-index: 1;
   overflow: hidden;
+
 }
 
 #header::before {
@@ -37,13 +38,19 @@ code {
   left: 0;
   right: 0;
   bottom: 0;
-  background: linear-gradient(to bottom,
+  /* background: linear-gradient(to bottom,
       rgba(255, 255, 255, 1) -100%,
       rgba(255, 255, 255, 0) -100%,
-      white 100%);
+      white 100%); */
+        background: #7681f3;
+        background: linear-gradient(to right bottom,
+            rgb(240, 240, 240) 0%,
+            #ffffff 45%,
+            #ffffff 85%,
+            rgb(255, 255, 255) 100%);
 
-  backdrop-filter: blur(0px);
-  z-index: -1;
+  /* backdrop-filter: blur(0px);
+  z-index: -1; */
 }
 
 .black-style {
@@ -129,9 +136,10 @@ code {
 }
 
 .text-gradient {
-  background: -webkit-linear-gradient(315deg, #1e30f3 0%, #e21e80 100%);
+  color:black;
+  /* background: -webkit-linear-gradient(315deg, #1e30f3 0%, #e21e80 100%);
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  -webkit-text-fill-color: transparent; */
 }
 
 .bg-gradient__white-to-pink {
@@ -156,7 +164,9 @@ code {
   height: 4px;
   width: 20%;
   border-radius: 0.75rem;
-  background: linear-gradient(135deg, #4b5afa 0%, #f74aa0 100%);
+  /* background: linear-gradient(135deg, #4b5afa 0%, #f74aa0 100%); */
+  color: black;
+  background-color: black;
 }
 
 .project__image {

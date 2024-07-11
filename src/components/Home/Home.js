@@ -7,7 +7,7 @@ const Home = () => {
   return (
     <>
       <section id="header" className="py-md-5 py-3 home plus-jakarta-sans">
-        <Container className="px-5 pb-5 pt-5" data-aos="fade-up">
+        <Container className="px-4 pb-5 pt-5" data-aos="fade-up">
           <Row className="pt-5 gx-5 align-items-center">
             <Col xs={12} md={5} lg={5}>
               <div className="text-center text-md-start">

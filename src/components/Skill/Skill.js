@@ -3,9 +3,9 @@ import { skills } from "../../utils/datas";
 export default function Skill() {
   return (
     <section id="skills" className="py-md-5 py-3">
-      <Container className="px-5 mb-3">
+      <Container className="px-3 mb-3">
         <div
-          className="d-flex flex-row align-items-center text-center mb-5"
+          className="d-flex justify-content-center align-items-center mb-4 mb-md-5"
           data-aos="fade-up"
         >
           <div className="mt-1 divider ml-4 h-1 bg-dark"></div>

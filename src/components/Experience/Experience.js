@@ -3,9 +3,9 @@ import { Card, Col, Container, Row } from "react-bootstrap";
 export default function Experience() {
   return (
     <section id="experiences" className="py-md-5 py-3">
-      <Container className="px-5 mb-3">
+      <Container className="px-3 mb-3">
         <div
-          className="d-flex flex-row align-items-center text-center mb-5"
+          className="d-flex justify-content-center align-items-center mb-4 mb-md-5"
           data-aos="fade-up"
         >
           <div className="mt-1 divider ml-4 h-1 bg-dark"></div>
@@ -15,7 +15,7 @@ export default function Experience() {
           <div className="mt-1 divider ml-4 h-1 bg-dark"></div>
         </div>
 
-        <Card className="shadow-lg border-0 rounded-4 mb-5" data-aos="fade-up">
+        <Card className="shadow-lg border-0 rounded-4 mb-3 mb-md-4" data-aos="fade-up">
           <div className="card-body p-5">
             <Row className="align-items-center gx-5">
               <Col className=" text-center text-lg-start mb-4 mb-lg-0">
