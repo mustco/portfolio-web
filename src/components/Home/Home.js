@@ -16,7 +16,7 @@ const Home = () => {
                   className="mb-4 bg-gradient-primary-to-secondary"
                 >
                   <div className="text-uppercase">
-                    Design &middot; Web Development 
+                    Web Development 
                   </div>
                 </Badge>
                 <div className="fs-3 black-style">

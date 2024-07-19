@@ -1,5 +1,6 @@
 import { Container } from "react-bootstrap";
 import { skills } from "../../utils/datas";
+import Language from "./Language";
 export default function Skill() {
   return (
     <section id="skills" className="py-md-5 py-3">
@@ -29,11 +30,12 @@ export default function Skill() {
                   <span className="text-gradient d-inline">Languages</span>
                 </h3>
               </div>
-              <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4">
+              <div className="row row-cols-2 row-cols-sm-2 row-cols-md-3 row-cols-lg-4">
                 {skills.map((skill) => (
                   <div className="col px-1 mb-4" key={skill.id}>
-                    <div className="text-center bg-light rounded-4 p-3 h-100">
-                      {skill.name}
+                    <div className="text-center rounded-4 px-4 px-md-5 py-3 h-100">
+                      <Language source={skill.source} alt={skill.alt} title={skill.title} />
+                      {skill.desc}
                     </div>
                   </div>
                 ))}

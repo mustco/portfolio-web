@@ -23,7 +23,7 @@ export default function Education() {
             <Row className="align-items-center gx-5">
               <Col className=" text-center text-lg-start mb-4 mb-lg-0">
                 <div className="bg-light p-4 rounded-4">
-                  <div className="text-secondary fw-bolder mb-2">
+                  <div className="text-primary fw-bolder mb-2">
                     2022 - Present
                   </div>
                   <div className="mb-2">
@@ -55,7 +55,7 @@ export default function Education() {
             <Row className=" align-items-center gx-5">
               <Col className=" text-center text-lg-start mb-4 mb-lg-0">
                 <div className="bg-light p-4 rounded-4">
-                  <div className="text-secondary fw-bolder mb-2">
+                  <div className="text-primary fw-bolder mb-2">
                     2019 - 2022
                   </div>
                   <div className="mb-2">
