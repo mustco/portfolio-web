@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col, Badge, Image } from "react-bootstrap";
-import Avatar from "../../Assets/avatar.png";
+import Avatar from "../../Assets/profile.jpg";
 import Tilt from "react-next-tilt";
 
 const Home = () => {

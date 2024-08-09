@@ -63,6 +63,12 @@ code {
 
 .img-fluid {
   width: auto;
+  width: 300px; /* Ukuran gambar */
+  height: 300px; /* Ukuran gambar */
+  border-radius: 50%; 
+    object-fit: cover; /* Menjaga aspek rasio dan mengisi area */
+  /* Tambahkan border jika diperlukan */
+  border: 2px solid #ccc;
 }
 
 .wave {
@@ -137,6 +143,7 @@ code {
 
 .text-gradient {
   color:black;
+  /* font-size: 20px; */
   /* background: -webkit-linear-gradient(315deg, #1e30f3 0%, #e21e80 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent; */
@@ -171,6 +178,7 @@ code {
 
 .project__image {
   min-height: 160px;
+  width: auto;
 }
 
 .skeleton {
