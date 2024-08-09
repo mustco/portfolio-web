@@ -1,6 +1,8 @@
 import React from "react";
-import { Container, Row, Col, Card } from "react-bootstrap";
+import { Container, Row, Col, Card, Button } from "react-bootstrap";
 import { projects } from "./data";
+import { FiExternalLink } from "react-icons/fi";
+import { FaCode } from "react-icons/fa6";
 
 export default function Project() {
   return (
@@ -34,11 +36,43 @@ export default function Project() {
                 <Card className="project-card overflow-hidden border-0 rounded-4  mb-3 mb-md-4">
                   <div className="card-body p-0">
                     <div className="d-flex align-items-center">
-                      <div className="p-2">
+                      <div className="w-100 p-2">
+                            {project.image?(
+                              <img
+                                src={project.image}
+                                alt={project.title}
+                                className="project__image rounded-4 w-100 h-100"
+                              />
+                            ):(
                         <div className="project__image rounded-4 w-100 h-100 skeleton" />
-                        <div className="p-2">
-                          <h5 className="fw-bolder">{project.title}</h5>
-                          <p>{project.desc}</p>
+                            )}
+                        <div className="d-flex justify-content-between">
+                          <div className="p-2 mt-2">
+                            {project.language?.map((lang, index) => (
+                              <Button
+                                key={index}
+                                variant="outline-primary"
+                                className="me-2 mb-2"
+                              >
+                                {lang}
+                              </Button>
+                            ))}
+                            <h5 className="mt-1 fw-bolder">{project.title}</h5>
+
+                          </div>
+                          <div className="d-flex flex-column mt-3 pe-4 mb-0 fs-5">
+                            {project.url?(
+                                 <a className="text-gradient" target="_blank" href={project.url} rel="noopener noreferrer">
+                                 <FiExternalLink />
+                               </a>
+                            ):null}
+                            {project.code?(
+
+                            <a className="text-gradient" target="_blank" href={project.code} rel="noopener noreferrer">
+                              <FaCode />
+                            </a>
+                            ):null}
+                          </div>
                         </div>
                       </div>
                     </div>
