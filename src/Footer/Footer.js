@@ -7,7 +7,7 @@ export default function Footer() {
             <div className="d-flex align-items- small m-0 fs-6">Copyright © MyResume 2024 </div>
           </div>
           <div className="col-auto">
-            <div className="d-flex align-items-center small m-0 fs-6">Designed by  <a href="https://startbootstrap.com/" target="_blank" style={{'fontSize':'20px', 'color':'blue', 'textDecoration':'none'}} className="px-1">startbootstrap</a></div>
+            <div className="d-flex align-items-center small m-0 fs-6">Designed by  <a href="https://startbootstrap.com/" target="_blank" rel="noopener noreferrer" style={{'fontSize':'20px', 'color':'blue', 'textDecoration':'none'}} className="px-1">startbootstrap</a></div>
           </div>
         </div>
       </div>
