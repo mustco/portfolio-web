@@ -21,22 +21,30 @@ export default function Experience() {
               <Col className=" text-center text-lg-start mb-4 mb-lg-0">
                 <div className="bg-light p-4 rounded-4">
                   <div className="text-primary fw-bolder mb-2">
-                    Apr 2021 - Sep 2021
+                    April 2021 - September 2021
                   </div>
                   <div className="small fw-bolder">Software Tester</div>
                   <div className="small text-muted">
                     PT Bahasa Kinerja Utama
                   </div>
+                  <div className="small text-muted">Praktik Kerja Lapangan</div>
                   <div className="small text-muted">Jakarta, Indonesia</div>
                 </div>
               </Col>
               <div className="col-lg-8">
-                <div>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Delectus laudantium, voluptatem quis repellendus eaque sit
-                  animi illo ipsam amet officiis corporis sed aliquam non
-                  voluptate corrupti excepturi maxime porro fuga.
-                </div>
+                <ul className="mb-0 ps-3">
+                  <li>
+                    Melakukan pengujian terhadap aplikasi perangkat lunak.
+                  </li>
+                  <li>
+                    Memeriksa fungsionalitas aplikasi untuk mengidentifikasi bug
+                    atau error.
+                  </li>
+                  <li>
+                    Berkolaborasi dengan tim dalam proses pengujian dan
+                    dokumentasi hasil pengujian.
+                  </li>
+                </ul>
               </div>
             </Row>
           </div>

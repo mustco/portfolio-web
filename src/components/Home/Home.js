@@ -25,15 +25,18 @@ const Home = () => {
                     👋🏻
                   </span>
                 </div>
-                <h1 className="display-3 fw-bolder mb-5  black-style">
+                <h1 className="display-3 fw-bolder mb-4 black-style">
                   <span className="text-gradient d-inline ">I'M ADNAN</span>
                 </h1>
-                <span className=" black-style">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius
-                  at enim eum illum aperiam placeat esse? Mollitia omnis minima
-                  saepe recusandae libero, iste ad asperiores! Explicabo commodi
-                  quo itaque! Ipsam!
-                </span>
+                <p className="black-style lh-base">
+                  Lulusan Teknik Informatika yang berfokus pada pengembangan
+                  aplikasi web dan perangkat lunak. Memiliki pengalaman mengerjakan
+                  berbagai proyek pengembangan aplikasi, mulai dari perancangan
+                  sistem hingga implementasi fitur menggunakan PHP, Laravel, dan
+                  teknologi web lainnya. Saya senang mempelajari teknologi baru,
+                  memecahkan masalah melalui kode, dan membangun aplikasi yang
+                  fungsional serta mudah digunakan.
+                </p>
                 <div className="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-md-start mb-3"></div>
               </div>
             </Col>

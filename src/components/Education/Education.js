@@ -24,7 +24,7 @@ export default function Education() {
               <Col className=" text-center text-lg-start mb-4 mb-lg-0">
                 <div className="bg-light p-4 rounded-4">
                   <div className="text-primary fw-bolder mb-2">
-                    2022 - Present
+                    2022 - 2026
                   </div>
                   <div className="mb-2">
                     <div className="small fw-bolder">
@@ -41,10 +41,9 @@ export default function Education() {
               </Col>
               <div className="col-lg-8">
                 <div>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Delectus laudantium, voluptatem quis repellendus eaque sit
-                  animi illo ipsam amet officiis corporis sed aliquam non
-                  voluptate corrupti excepturi maxime porro fuga.
+                  Mahasiswa Teknik Informatika dengan dasar pemrograman, basis
+                  data, rekayasa perangkat lunak, dan sistem informasi.
+                  Memahami proses pengembangan serta pengujian aplikasi.
                 </div>
               </div>
             </Row>
@@ -71,10 +70,9 @@ export default function Education() {
               </Col>
               <div className="col-lg-8">
                 <div>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Delectus laudantium, voluptatem quis repellendus eaque sit
-                  animi illo ipsam amet officiis corporis sed aliquam non
-                  voluptate corrupti excepturi maxime porro fuga.
+                  Mempelajari dasar pengembangan perangkat lunak, pemrograman,
+                  dan basis data. Menjalani Praktik Kerja Lapangan sebagai
+                  Software Tester untuk menerapkan proses pengujian aplikasi.
                 </div>
               </div>
             </Row>
