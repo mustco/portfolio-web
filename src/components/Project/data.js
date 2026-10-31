@@ -2,7 +2,6 @@ import quranAppImage from "../../Assets/projects/quran-app.png";
 import schoolFintechImage from "../../Assets/projects/school-fintech.png";
 import quizAppImage from "../../Assets/projects/quiz-app.png";
 import floraFolkImage from "../../Assets/projects/flora-folk.png";
-import myBlogImage from "../../Assets/projects/my-blog.png";
 import tutorsAppImage from "../../Assets/projects/tutors-app.png";
 import keuanganKkpImage from "../../Assets/projects/keuangan-kkp.png";
 
@@ -45,15 +44,6 @@ export const projects = [
   },
   {
     id: 5,
-    title: "MyBlog",
-    image: myBlogImage,
-    language: ["NextJs", "TailwindCss"],
-    url: "https://mustcoweb.xyz/",
-    code: "https://github.com/mustco/my-blog",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius at enim eum illum aperiam ",
-  },
-  {
-    id: 6,
     title: "Tutors LMS",
     image: tutorsAppImage,
     language: ["Laravel", "PHP", "TailwindCss"],
@@ -62,10 +52,10 @@ export const projects = [
     desc: "Platform Learning Management System (LMS) berbasis web untuk manajemen kelas, tugas, dan pengumuman dengan sistem multi-role.",
   },
   {
-    id: 7,
+    id: 6,
     title: "Tabungan Kelas",
     image: keuanganKkpImage,
-    language: ["ReactJs", "TypeScript", "TailwindCss", "Supabase"],
+    language: ["ReactJs", "TailwindCss", "Supabase"],
     url: "https://kas-sd-nurulhuda.netlify.app/",
     code: null,
     desc: "Aplikasi web pengelolaan uang kas dan sistem tabungan kelas berbasis PWA untuk SD Islam Nurul Huda.",
